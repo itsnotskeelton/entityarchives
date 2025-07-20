@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- IF YOU'RE SEEING THIS: THIS CODE IS TAKEN FROM THE ORIGINAL BLACKSPACE WEBSITE, WE ARE NOT RESPONSIBLE FOR ANYTHING.-->
+    <title>Online</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            height: 100vh;
+            background-image: url('https://thumb.r2.moele.me/t/28959/28949672/a-0005.jpg'); /* Background image */
+            background-size: cover; /* Cover the entire background */
+            position: relative; /* Position relative for absolute elements */
+            color: white; /* Default text color */
+        }
+        .sidebar {
+            width: 60px; /* Width of the sidebar */
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            position: fixed; /* Fixed position */
+            top: 0;
+            left: 0;
+            height: 100%; /* Full height */
+        }
+        .sidebar img {
+            width: 40px; /* Icon size */
+            margin: 10px 0; /* Spacing between icons */
+            cursor: pointer; /* Pointer cursor on hover */
+        }
+        .online-text {
+            position: absolute;
+            top: 20px; /* Positioning the text */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 48px; /* Font size */
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.8), 0 0 20px rgba(0, 255, 0, 0.6); /* Glowing effect */
+            z-index: 2; /* Ensure text is above the background */
+        }
+        .calculator {
+            margin: auto; /* Center the calculator */
+            z-index: 1; /* Ensure calculator is below the text */
+        }
+        audio {
+            margin: 20px auto; /* Center the audio player */
+            display: block; /* Block display for centering */
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="https://discord.com/" target="_blank">
+            <img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxsG72wAo9EWJR4yQWyJJaDb6rYcBtJvTvH3UoAS4JFNDaxGhmKNaMwgElLURlRFeVkLCjkfnXmWtINWZIrPGYq0-&format=source" alt="Discord Icon">
+        </a>
+        <a href="https://www.google.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1024px-Google_Chrome_icon_%28February_2022%29.svg.png" alt="Google Icon">
+        </a>
+        <a href="https://www.youtube.com/" target="_blank">
+            <img src="https://yt3.googleusercontent.com/LZeUOuOM8lzINkYAKi1X3pCQz1xsSD_EndPUR1vOGesaGavUtyM_-bCUq7Gld-LPX_R7uieWsA=s900-c-k-c0x00ffffff-no-rj" alt="YouTube Icon">
+        </a>
+        <a href="https://www.soyjak.st" target="_blank">
+            <img src="https://wiki.soyjak.st/images/thumb/8/86/Soyjak_Party_Emblem.png/1200px-Soyjak_Party_Emblem.png" alt="Soyjak.party">
+        </a>
+    </div>
+    <div class="online-text">Online</div>
+    <div class="calculator">
+        <iframe width="219" height="302" src="https://calculator-1.com/outdoor/?f=000000&r=666666" scrolling="no" frameborder="0"></iframe> 
+    </div>
+    <audio controls autoplay>
+        <source src="https://cdn.discordapp.com/attachments/1348775781454839902/1349837552823177297/Bu5ts_Woe_Retold_V4_ft._Jingo_Official_Visualizer.mp3?ex=67d48daf&is=67d33c2f&hm=5ff34007dc176ee752ce042d2ceeec0392ea9f199fb64717a746d9fc5663d004&" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackspace, Underground Secure Chat, Unfiltered</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("https://o.aolcdn.com/hss/storage/midas/1dc95d9e70252c2a55bd8795b5c39064/205444457/hologram-made-with-regular-projector-tracking-2017-07-05-01.gif");
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        button {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Blackspace</h1>
+        <h1>Unfiltered, Unbanned, Underground.</h1>
+        <button onclick="openChat()">Chat</button>
+        <button onclick="openOnline()">Online</button>
+        <button onclick="openhotspot()">Hotspot</button>
+        <button onclick="openexpose()">Exposed</button> 
+        <button onclick="onionchat()">OnionChat</button> 
+        <button onclick="banned()">ScratchGamesBanned</button>
+    </div>
+
+    <script>
+        function openChat() {
+            window.open("chat.html", "_blank");
+        }
+
+        function openOnline() {
+            window.open("online.html", "_blank");
+        } 
+        
+        function openhotspot() {
+            window.open("hotspot.html", "_blank");
+        } 
+        
+        function openexpose() {
+            window.open("failedtoarchive", "_blank");
+        } 
+        
+        function banned() {
+            window.open("fnaf.html", "_blank");
+        } 
+        
+        function onionchat() {
+            window.open("https://www5.cbox.ws/box/?boxid=955869&boxtag=n3m1p5", "_blank");
+        }
+    </script>
+</body>
+</html>
