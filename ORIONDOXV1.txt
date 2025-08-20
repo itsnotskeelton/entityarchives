@@ -2,7 +2,8 @@
 - assumed age: 12
 - school: Daley Middle School
 - school address: 150 Fleming St, Lowell, MA 01851, United States
-- he lives in Cambridge massauchets lowell
+- he lives in massauchets lowell
 - emails: eni.t.itytest@gmail.com, enititytest@gmail.com, oriongamerman@gmail.com
 - class on scratch: https://scratch.mit.edu/classes/1067653
+
 - his now deleted school account: https://scratch.mit.edu/users/OrionT787
